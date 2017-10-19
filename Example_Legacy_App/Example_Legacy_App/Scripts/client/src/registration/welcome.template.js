@@ -1,5 +1,6 @@
 export const welcome = {
   template: `
+    <header></header>
     <div class="container-fluid">
 
       <h3>Migrating from Legacy Front-End to a Modern Framework</h3>

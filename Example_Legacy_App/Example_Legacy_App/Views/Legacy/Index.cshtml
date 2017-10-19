@@ -1,0 +1,10 @@
+﻿@using Example_Legacy_App.Models
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{Html.RenderPartial("ng_partial_view", new AngularTemplateViewModel(module: "example.header", template: "<header></header>"));}
+
+<h2>This is an old legacy page!</h2>
+
+<a class="btn btn-primary" href="/">Log Out</a>
