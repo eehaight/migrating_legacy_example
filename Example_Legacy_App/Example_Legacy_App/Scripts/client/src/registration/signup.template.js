@@ -1,5 +1,6 @@
 export const signup = {
   template: `
+    <header></header>
     <div class="container-fluid">
 
       <h3>Sign Up Page</h3>

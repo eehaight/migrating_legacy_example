@@ -1,1 +1,7 @@
-﻿
+﻿@using Example_Legacy_App.Models
+@model AngularTemplateViewModel
+
+
+<div ng-app="@Model.Module" class="ng-app">
+    @Html.Raw(@Model.Template)
+</div>
